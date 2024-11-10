@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import '../../../../../../core/utils/assets.dart';
 import '../../../../../../core/utils/styles.dart';
 
-class BestSellerListViewItem extends StatelessWidget {
-  const BestSellerListViewItem({super.key});
+class BestSellerItem extends StatelessWidget {
+  const BestSellerItem({super.key});
 
   @override
   Widget build(BuildContext context) {
