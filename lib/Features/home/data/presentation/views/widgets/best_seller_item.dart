@@ -7,8 +7,8 @@ import 'package:go_router/go_router.dart';
 import '../../../../../../core/utils/assets.dart';
 import '../../../../../../core/utils/styles.dart';
 
-class BestSellerItem extends StatelessWidget {
-  const BestSellerItem({super.key});
+class BookListViewItem extends StatelessWidget {
+  const BookListViewItem({super.key});
 
   @override
   Widget build(BuildContext context) {
