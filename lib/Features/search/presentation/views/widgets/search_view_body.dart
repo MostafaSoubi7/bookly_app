@@ -2,7 +2,7 @@ import 'package:bookly_app/Features/search/presentation/views/widgets/custom_sea
 import 'package:flutter/material.dart';
 
 import '../../../../../core/utils/styles.dart';
-import '../../../../home/data/presentation/views/widgets/best_seller_item.dart';
+import '../../../../home/presentation/views/widgets/best_seller_item.dart';
 
 class SearchViewBody extends StatelessWidget {
   const SearchViewBody({super.key});
