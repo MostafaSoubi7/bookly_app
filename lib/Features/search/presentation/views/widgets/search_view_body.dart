@@ -51,6 +51,7 @@ class SearchResultListView extends StatelessWidget {
         if (state is SearchCubitInitial) {
           return const Column(
             children: [
+              Spacer(),
               Icon(
                 Icons.image_search,
                 size: 72,
@@ -58,7 +59,8 @@ class SearchResultListView extends StatelessWidget {
               SizedBox(
                 height: 16,
               ),
-              Text("you can search by book name or category 😊")
+              Text("you can search by book name or category 😊"),
+              Spacer(),
             ],
           );
           // return Opacity(
