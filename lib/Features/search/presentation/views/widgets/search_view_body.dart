@@ -20,8 +20,12 @@ class SearchViewBody extends StatelessWidget {
         children: [
           CustomSearchTextField(
             onSubmitted: (data) {
-              BlocProvider.of<SearchCubit>(context)
-                  .fetchSearchBooks(searchString: data);
+              if (data.isEmpty) {
+                BlocProvider.of<SearchCubit>(context).resetSearch();
+              } else {
+                BlocProvider.of<SearchCubit>(context)
+                    .fetchSearchBooks(searchString: data);
+              }
             },
           ),
           const SizedBox(
